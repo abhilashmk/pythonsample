@@ -73,10 +73,10 @@
           "name": "web",
           "type": "config",
           "dependsOn": [
-            "[resourceId('Microsoft.Web/Sites', parameters('siteName'))]"
+            "[resourceId('Microsoft.Web/Sites', parameters('webAppName'))]"
           ],
           "properties": {
-            "pythonVersion": "3.7",
+            "pythonVersion": "3.7"
           }
         },
 	  {

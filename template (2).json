@@ -66,7 +66,20 @@
       "properties": {
         "name": "[parameters('webAppName')]",
         "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('appServiceName'))]"
-      }
+      },
+	  "resources": [
+	  {
+          "apiVersion": "2015-08-01",
+          "name": "appsettings",
+          "type": "config",
+          "dependsOn": [
+            "[resourceId('Microsoft.Web/Sites', parameters('appServiceName'))]"
+          ],
+          "properties": {
+            "SCM_DO_BUILD_DURING_DEPLOYMENT": "true"
+          }
+        }
+	  ]
     }
   ],
   "outputs": {}

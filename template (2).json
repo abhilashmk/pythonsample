@@ -73,7 +73,7 @@
           "name": "appsettings",
           "type": "config",
           "dependsOn": [
-            "[resourceId('Microsoft.Web/Sites', parameters('appServiceName'))]"
+            "[resourceId('Microsoft.Web/Sites', parameters('webAppName'))]"
           ],
           "properties": {
             "SCM_DO_BUILD_DURING_DEPLOYMENT": "true"

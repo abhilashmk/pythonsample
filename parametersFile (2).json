@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "appServiceName": {
-      "value": "ServicePlan5307de45-98d8"
+      "value": "serviceplanmsqrg2b4j45rm"
     },
     "appServiceSkuName": {
       "value": "S1"
     },
     "webAppName": {
-      "value": "anandarmtemplate14"
+      "value": "pythonabhilinux2"
     }
   }
 }

@@ -79,7 +79,7 @@
             "pythonVersion": "3.7"
           }
         },
-	  {
+	  /*{
           "apiVersion": "2015-08-01",
           "name": "appsettings",
           "type": "config",
@@ -89,7 +89,7 @@
           "properties": {
             "SCM_DO_BUILD_DURING_DEPLOYMENT": "true"
           }
-        }
+        }*/
 	  ]
     }
   ],
